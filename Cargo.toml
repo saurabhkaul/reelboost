@@ -1,0 +1,15 @@
+[package]
+name = "reelboost"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ollama-rs = { version = "0.2.1", features = ["stream","tokio"]}
+base64 = "0.22.1"
+reqwest = "0.12.7"
+tokio = "1.40.0"
+wasm-streams = "0.4.0"
+ffmpeg-next = "7.0.4"
+tokio-stream = "0.1.16"
+image = "0.25.2"
+tempfile = "3.12.0"
